@@ -1,0 +1,92 @@
+#carouselExampleCaptions {
+    // .carousel-inner {
+    //   height: 90vh;
+    // }
+    .carousel-indicators li {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+    }
+    .active {
+      background-color: #f43438;
+    }
+  }
+  
+
+  .DownloadTheme {
+    background-color: #f43438;
+    color: white;
+  }
+  .btn-primary{
+    background-color: white;
+    color: #f43438;
+  }
+  .btn-primary:hover{
+    background-color: #eeeeee;
+    color: black;
+  }
+
+
+  // btn
+
+  #cekasTheme {
+    .btn {
+      border: 1px solid black;
+      padding: 8px 15px;
+      font-size: 14px;
+      line-height: 11px;
+      border-radius: 2px;
+      font-weight: bold;
+    }
+
+    .btn:hover{
+      background-color: black;
+      color: white;
+    }
+    .bg-transparent:hover {
+      background-color: #f43438 !important;
+      border: none;
+      color:white;
+    }
+  text {
+      color: gray !important;
+    }
+  }
+
+  .fa-3x.icon-circle, .fa-3x.icon-square {
+    width: 80px;
+    height: 80px;
+    font-size: 28px;
+    line-height: 78px;
+    margin: auto;
+}
+.icon-circle, .icon-square {
+  background-color: #ebebeb;
+  color: #292929;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid transparent;
+  text-align: center;
+  font-size: 15px;
+  line-height: 36px;
+  overflow: hidden;
+
+  transition: all 0.3s ease-in-out;
+
+  &:hover{
+    background-color: #f43438;
+    color: white;
+  }
+
+}
+
+
+.actve .icon-circle, .fa-primary{
+  background-color: #f43438;
+  color: white;
+
+  &:hover{
+    background-color: #d8292c;
+  }
+ }

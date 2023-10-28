@@ -1,0 +1,40 @@
+.padding-bot40{
+    padding-bottom: 40px;
+}
+.gray-container {
+    background: #f3f3f3;
+    padding: 60px 0;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+   
+    }
+    h5 {
+       
+        line-height: 30px;
+    }
+    .progress{
+        margin-bottom: 30px;
+        .progress-bar{
+            background-color: red;
+            
+            
+        }
+
+        .value-progress {
+            position: absolute;
+            color: #616161;
+            top: 14px;
+            right: 0;
+            font-weight: 700;
+        }
+    }
+
+.img-responsive{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+   
+}
+

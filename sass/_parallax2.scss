@@ -1,0 +1,99 @@
+
+
+
+.bg2{
+    background-image: url(../images/bg02.jpg) ;
+    background-size: cover;
+    border: 1px solid red;
+}
+.parallax-container{
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+
+.paragraph{
+    width: 780px;
+    height: 310px;
+    background-color: #f43438;
+}
+
+// .fa-quote-left{
+//     color: white;
+//     justify-content: center;
+// }
+
+    .para{
+        
+        color: white;
+        letter-spacing: 1px;
+        padding: 30px 30px 70px 30px;
+    margin-bottom: 50px;
+    border-radius: 2px;
+    text-align: center;
+
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+ .avtar{
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    margin-left: -50px;
+
+    img{
+        border-radius: 50%;
+    }
+ }   
+
+
+.filter{
+    display: block;
+margin: 0 0 30px 0;
+padding: 0;
+text-align: center;
+
+ li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #2b2b2b;
+    font-size: 16px;
+
+    &:hover{
+        transition: all 0.3s ease-in-out;
+        outline: none;
+        background-color: #f43438;
+    }
+
+    a{
+        display: block;
+    border: 1px solid #d5d5d5;
+    color: #2b2b2b;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+
+    &:hover{
+        color: white;
+    }
+    }
+    .active{
+        background-color: #f43438;
+        color: white;
+    }
+
+    
+}
+ }
+
+// img{
+//     width: 359px;
+//     height: 359px;
+//  }
