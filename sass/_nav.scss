@@ -1,4 +1,132 @@
+// .top-container {
+//   background-color: #f43438 !important;
+//   float: left;
+//   width: 100%;
+//   color: #ffffff;
+//   font-size: 13px;
+//   max-height: 25px;
+
+
+//   .row {
+//       display: flex;
+//       justify-content: space-between;
+
+//       .top-column-left {
+
+//           .contact-line {
+//               display: flex;
+
+//               .fa-phone {
+//                   border-left: 1px solid #fff;
+//                   margin-left: 10px;
+//                   padding-left: 10px;
+//               }
+//           }
+//       }
+
+//       .top-column-right {
+//           display: flex;
+
+
+//           .top-social-network {
+//               a {
+//                   color: #fff;
+//                   margin: 2px;
+//                   font-size: 13px;
+
+//               }
+//           }
+//       }
+
+//       .register {
+//           display: flex;
+
+//           li {
+
+//               a {
+//                   color: #f3f3f3;
+//                   border-left: 1px solid #fff;
+
+//                   margin-left: 10px;
+//                   padding-left: 10px;
+//               }
+//           }
+
+//       }
+//   }
+
+// }
+
+ .top-nav{
+  height: 25px;
+  width: 100%;
+  background-color: #f43438 !important;
+   
+   width: 100%;
+   color: #ffffff;
+   
+   max-height: 25px;
+.container{
+
+
+   .row {
+    display: flex;
+    justify-content: space-between;
+
+    .top-column-left {
+
+        .contact-line {
+            display: flex;
+
+            .fa-phone {
+                border-left: 1px solid #fff;
+                margin-left: 10px;
+                padding-left: 10px;
+            }
+        }
+    }
+
+    .top-column-right {
+        display: flex;
+
+
+        .top-social-network {
+            a {
+                color: #fff;
+                margin: 2px;
+                font-size: 13px;
+
+            }
+        }
+    }
+
+    .register {
+        display: flex;
+
+        li {
+   list-style: none;
+            a {
+                color: #f3f3f3;
+                border-left: 1px solid #fff;
+
+                margin-left: 10px;
+                padding-left: 10px;
+            }
+        }
+
+    }
+}
+
+}
+ }
+
+ 
+
+
 #navbarSec {
+  position: sticky;
+    top: 0;
+    z-index: 1000;
     background-color: #222222;
     a {
       color: white;
