@@ -1,0 +1,153 @@
+.inner-head {
+    background: url(../images/bg03.jpg) 50% 0 no-repeat fixed;
+    padding: 60px 0 50px 0;
+    position: relative;
+    z-index: 1;
+
+
+    i{
+        
+            float: left;
+            width: 47px;
+            height: 47px;
+            margin: 7px 20px 0 0;
+            border: 2px solid #fff;
+            text-align: center;
+            overflow: hidden;
+            font-size: 24px;
+            line-height: 42px;
+            border-radius: 2px;
+        
+    }
+
+    .breadcrumb{
+     background-color: none;
+     margin-bottom: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    list-style: none;
+    background: none;
+    border-radius: 0;
+
+    li:before {
+        padding: 0 5px;
+        color: #fff;
+        content: "|";
+    }
+
+    li{
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .active{
+            color: red;
+        }
+    }
+}
+    }
+.passage{
+    margin-left: 18%;
+    font-size: 13px;
+}
+
+// 
+
+.box-default {
+    background: #fefefe;
+    border: 1px solid #eeeeee;
+}
+.icon-box {
+    position: relative;
+    text-align: center;
+    margin: 0 0 30px 0;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 2px;
+    .fa {
+
+
+        transition: 1s;
+    }
+
+    &:hover {
+
+
+        .fa {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+
+
+.icon-box-contain {
+    position: relative;
+    padding: 30px 20px 15px 20px;
+    border: 1px solid transparent;
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+
+    h6 {
+        font-size: 18px;
+        line-height: 24px;
+        color: #292929;
+        font-weight: 700;
+        margin: 0 0 15px 0;
+}
+}
+.btn-sm{
+    padding: 8px 15px;
+    font-size: 13px;
+    line-height: 11px;
+    border-radius: 2px;
+}
+.btn-default {
+   
+    background-color: #292929;
+    border-color: #292929;
+}
+.btn {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid transparent;
+    color: #fff;
+   
+}
+.box-default .icon-bg {
+    color: rgba(41, 41, 41, 0.1);
+}
+.icon-box .icon-bg {
+    position: absolute;
+    font-size: 240px;
+    line-height: 120px;
+    top: 50%;
+    right: -20%;
+}
+
+// 
+.half-column-wrapp {
+    float: left;
+    width: 100%;
+    padding: 0;
+    background: #212121;
+    color: #bababa;
+
+    .pull-left {
+        float: left!important;
+    }
+
+ .half-column {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    background: #212121;
+  
+
+    .img-responsive {
+        display: inline-block;
+    }
+  
+}
+}

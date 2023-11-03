@@ -10,7 +10,7 @@
 
 // // Page Title
 // h1 {
-  
+
 //   text-align:center;
 //   font-family:Montserrat,sans-serif;
 //   color:#333;
@@ -47,13 +47,13 @@
 //       transition:all 500ms ease;
 
 //       div {
-        
+
 //         display:block;
 //         overflow:hidden;
 //         width:100%;
 
 //         a {
-          
+
 //           display:block;
 //           height:$a-height;
 //           width:100%;
@@ -66,7 +66,7 @@
 //           color:#fff;
 //           text-decoration:none;
 //           font-family:Open Sans, sans-serif;
-          
+
 //           transition:all 200ms ease;
 
 //           * {
@@ -77,10 +77,10 @@
 //             text-overflow:ellipsis;
 //             position:relative;
 //             z-index:5;
-            
+
 //             white-space:nowrap;
 //             overflow:hidden;
-            
+
 //             -webkit-transform:translateX(-20px);
 //             transform:translateX(-20px);
 
@@ -96,16 +96,16 @@
 //             font-size:24px;
 //             text-transform:uppercase;
 //             margin-bottom:2px;
-            
+
 //             top:$text-offset;
 
 //           }
-          
+
 //           p {
-            
+
 //             top:$text-offset;
 //             font-size:13.5px;
-            
+
 //           }
 
 //         }
@@ -113,7 +113,7 @@
 //       }
 
 //     }
-    
+
 //     // Background images
 //     li:nth-child(1) { background-image:url(../images/team1.jpg); }
 //     li:nth-child(2) { background-image:url(../images/team2.jpg); }
@@ -124,7 +124,7 @@
 
 //     &:hover li,
 //     &:focus-within li { width:8%; }
-    
+
 //     li:focus {
 //       outline: none;
 //     }
@@ -137,42 +137,42 @@
 //       width:60%;
 
 //       a {
-        
+
 //         background:rgba(0,0,0,.4);
-        
+
 //         * {
-          
+
 //           opacity:1;
 //           -webkit-transform:translateX(0);
 //           transform:translateX(0);
-        
+
 //         }
-      
+
 //       }
 
 //     }
-    
+
 //     &:hover li {
 //       width: 8% !important;
-      
+
 //       a * { opacity: 0 !important; }
 //     }
-    
+
 //     &:hover li:hover {
 //       width:60% !important;
 
 //       a {
-        
+
 //         background:rgba(0,0,0,.4);
-        
+
 //         * {
-          
+
 //           opacity:1 !important;
 //           -webkit-transform:translateX(0);
 //           transform:translateX(0);
-        
+
 //         }
-      
+
 //       }
 //     }
 
@@ -182,50 +182,50 @@
 
 // // Stack items
 // @media screen and (max-width: 600px) {
-  
+
 //   // IE gets fussy if this isn't here
 //   body { margin:0; }
-  
+
 //   .accordion {
-    
+
 //     height:auto;
-    
+
 //     ul,ul:hover {
-      
+
 //       li,li:hover {
-        
+
 //         position:relative;
 //         display:table;
 //         table-layout:fixed;
 //         width:100%;
-        
+
 //         -webkit-transition:none;
 //         transition:none;
-        
+
 //       }
-      
+
 //     }
-    
+
 //   }
 
 // }
 
 // .about {
-  
+
 //   text-align:center;
 //   font-family:'Open Sans', sans-serif;
 //   font-size:12px;
 //   color:#666;
-  
+
 //   a {
-    
+
 //     color:blue;
 //     text-decoration:none;
-    
+
 //     &:hover { text-decoration:underline; }
-    
+
 //   }
-  
+
 // }
 
 
@@ -269,19 +269,22 @@
 // }
 
 
-.card{
-    .fa{
-        
-   
-    transition: 1s;}
-&:hover{
+.card {
+    .fa {
 
 
-    .fa{
-        transform: rotate(360deg);
+        transition: 1s;
+    }
+
+    &:hover {
+
+
+        .fa {
+            transform: rotate(360deg);
+        }
     }
 }
-}
+
 // .active{
 //     border: 1px solid red;
 // }
