@@ -102,19 +102,19 @@
     line-height: 11px;
     border-radius: 2px;
 }
-.btn-default {
+// .btn-default {
    
-    background-color: #292929;
-    border-color: #292929;
-}
-.btn {
-    position: relative;
-    text-transform: uppercase;
-    font-weight: 700;
-    border: 1px solid transparent;
-    color: #fff;
+//     background-color: #292929;
+//     border-color: #292929;
+// }
+// .btn {
+//     position: relative;
+//     text-transform: uppercase;
+//     font-weight: 700;
+//     border: 1px solid transparent;
+//     color: #fff;
    
-}
+// }
 .box-default .icon-bg {
     color: rgba(41, 41, 41, 0.1);
 }
@@ -150,4 +150,7 @@
     }
   
 }
+}
+.card{
+    border: none;
 }

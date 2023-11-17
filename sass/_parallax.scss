@@ -1,5 +1,6 @@
 .bg1 {
     background-image: url(../images/bg01.jpg);
+    background-image: fixed;
     background-size: cover;
    
 }
@@ -14,7 +15,7 @@
 
     .parallax-container{
         padding: 60px 0;
-        overflow: hidden
+        overflow: hidden;
 
         h4{
             font-size: 24px;
